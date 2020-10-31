@@ -36,6 +36,6 @@ Data taken from Kaggle, supplimentary data from pro-football-reference.com, Week
 
 sklearn, XGBoost, Pandas, Seaborn
 
-**Possible impacts of your project:**
+**Possible impacts:**
 
 A proven strategy that provides consistent success above 52.5% would provide a profitable returns.
