@@ -15,10 +15,10 @@ select = st.selectbox('Select a team to recieve a prediction:',['Arizona Cardina
 'Carolina Panthers', 'Cincinnati Bengals', 'Cleveland Browns', 'Chicago Bears', 'Dallas Cowboys', 'Denver Broncos', 
 'Detroit Lions', 'Green Bay Packers', 'Houston Texans', 'Indianapolis Colts', 'Kansas City Chiefs', 'Los Angeles Rams', 
 'Jacksonville Jaguars', 'Miami Dolphins', 'Minnesota Vikings', 'New England Patriots', 'New Orleans Saints', 
-'New York Giants', 'New York Jets', 'Oakland Raiders', 'Philadelphia Eagles', 'Tampa Bay Buccaneers', 'Tennessee Titans', 
+'New York Giants', 'New York Jets', 'Oakland Raiders', 'Philadelphia Eagles', 'San Francisco 49ers', 'Seattle Seahawks', 'Tampa Bay Buccaneers', 'Tennessee Titans', 
 'Washington Football Team' ])
 
-df = pd.read_csv('/Users/gavin/Documents/Metis/Coursework/Project_3/notebooks/week_8.csv')
+df = pd.read_csv('/Users/gavin/Documents/Metis/Coursework/Project_3/final_notebooks_and_data/week_8.csv')
 infile = open('nfl_xgb.pkl', 'rb')
 gxb= pickle.load(infile)
 
